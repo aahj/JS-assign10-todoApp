@@ -1,0 +1,35 @@
+#main {
+    width: 50%;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.sign_box {
+    border: 2px solid gold;
+    box-shadow: 5px 5px 10px rgb(155, 152, 152);
+    padding-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+}
+
+.fab {
+    margin: 20px;
+    font-size: 1.5em;
+}
+.iconBtn:hover{
+    background-color: antiquewhite;
+}
+
+.form {
+    padding: 30px;
+}
+
+.form_input {
+    padding: 6px;
+    margin: 10px;
+}

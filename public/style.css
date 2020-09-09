@@ -1,0 +1,72 @@
+body{
+    background-color: seashell !important;
+}
+/* ------icon------ */
+.fas{
+    color: slateblue !important;
+}
+/* -----h2----- */
+h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    letter-spacing: 0.5em;
+    color: slateblue !important;
+}
+.hr{    
+    background-color: gold !important;    
+}
+/* -----main----- */
+#main{
+    width: 50%;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-top: 50px;    
+}
+.box{
+    background-color: black;
+    color: #fff;
+    padding: 30px 20px;
+    border-radius: 30px;
+    margin: 10px 10px;        
+}
+#prompt{
+    width: 200px;
+    display: inline-block;
+    padding: 7px 15px;    
+    vertical-align: middle;
+    margin: 10px 20px;
+    color: #000000;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+#prompt:focus{
+    box-shadow: 5px 5px 10px white;
+}
+.btn{
+    margin: 5px 7px;
+    border-radius: 20px !important;
+    padding: 10px 17px !important;
+    border: none;
+    outline: none;
+}
+
+/*---------------- created through JS ----------------*/
+/* #extra_btn_class{
+    margin: 5px 17px;
+    
+    border: none;
+    outline: none;
+} */
+.listClass{
+    border-bottom: 1px solid dimgray;        
+}
+.ul_div{
+    padding: 20px 20px;    
+}
+/*----------------media query-------------------*/
+@media only screen and (max-width: 600px) {
+    #prompt{
+        max-width: 170px;
+        margin: 10px 6px;
+    }
+}
